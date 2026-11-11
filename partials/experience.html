@@ -1,0 +1,157 @@
+<section class="section" id="experience">
+  <header class="section-head reveal">
+    <span class="section-num">01</span>
+    <h2>Professional Experience</h2>
+  </header>
+
+  <ol class="timeline">
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Data Engineer Lead</h3>
+            <p class="job-org"><a class="org-link" href="https://www.aldoria.com/fr/" target="_blank" rel="noopener">Aldoria — Space Technology</a> · Paris, France</p>
+          </div>
+          <span class="job-date">12/2023 – Present</span>
+        </header>
+        <p class="job-context">Context: building space situational awareness infrastructure to protect orbital assets. As the sole principal data engineer, owned the full data platform from day one — infrastructure, pipelines, real-time systems, and orchestration — supporting a live product in production.</p>
+        <div class="job-groups">
+          <div class="job-group">
+            <h4>Infrastructure &amp; Cloud</h4>
+            <ul>
+              <li>Architected and built the company's entire data infrastructure from scratch, establishing scalable pipelines and processing frameworks underpinning the core platform.</li>
+              <li>Led cloud infrastructure migration to OVH Cloud with VMware, delivering seamless integration, high availability, and optimized resource utilization.</li>
+            </ul>
+          </div>
+          <div class="job-group">
+            <h4>Real-time &amp; Streaming Systems</h4>
+            <ul>
+              <li>Designed a microservices-based, real-time collision avoidance system on Apache Kafka, processing thousands of computations per hour and reducing client response times by an order of magnitude.</li>
+              <li>Engineered a real-time satellite cataloguing and tracking system using Kafka-driven microservices, achieving low-latency object detection across a large, dynamic orbital catalogue.</li>
+            </ul>
+          </div>
+          <div class="job-group">
+            <h4>Data Modelling</h4>
+            <ul>
+              <li>Designed a multi-store data model combining MySQL for relational data, Apache Cassandra for time-series history, and S3 for raw object storage — balancing query performance, scalability, and cost.</li>
+              <li>Rebuilt the legacy relational data model from the ground up, eliminating structural debt and aligning schemas with evolving product requirements.</li>
+            </ul>
+          </div>
+          <div class="job-group">
+            <h4>Pipeline Orchestration</h4>
+            <ul>
+              <li>Deployed and operated a self-managed Apache Airflow cluster across 4 Celery workers — infrastructure setup, configuration, and ongoing maintenance with no managed service.</li>
+              <li>Designed a comprehensive suite of Airflow DAGs to automate ingestion of multiple external data sources (TLE feeds, tracking data, third-party catalogues) and orchestrate internal processing pipelines.</li>
+              <li>Leveraged dbt within Airflow workflows to apply transformation logic, enforce data quality, and maintain lineage across the pipeline.</li>
+            </ul>
+          </div>
+          <div class="job-group">
+            <h4>Team Leadership</h4>
+            <ul>
+              <li>Led and coordinated a team to achieve operational objectives, ensuring effective task allocation and timely delivery.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="stack"><strong>Main stack:</strong> Python · SQL · Apache Airflow · dbt · Cassandra · MySQL · PostgreSQL · Kafka · Docker · Docker Swarm · OVH Cloud</p>
+      </article>
+    </li>
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Cloud Data Engineer</h3>
+            <p class="job-org"><a class="org-link" href="https://www.linkedin.com/company/packet-ai/about/" target="_blank" rel="noopener">PacketAI — AI Monitoring Solution</a> · Paris, France</p>
+          </div>
+          <span class="job-date">10/2020 – 08/2023</span>
+        </header>
+        <p class="job-context">Context: building a cloud-native SaaS IT monitoring solution that leverages AI for detecting anomalies in metrics and logs, conducting root cause analysis, and predicting incidents.</p>
+        <ul class="job-list">
+          <li>Designed, implemented, and maintained scalable ML pipelines for real-time data processing using Python, Apache Spark, Kafka, Kubernetes, Argo Events, and cloud platforms (AWS and GCP).</li>
+          <li>Built reproducible and robust ML test workflows using Kubernetes, Argo Workflows, Kubeflow, and GCP/Azure, ensuring model stability and deployment reliability.</li>
+          <li>Developed CI/CD pipelines for ML using GitHub Actions and FluxCD, enabling seamless integration and continuous deployment of new features and models.</li>
+          <li>Monitored the performance and health of ML pipelines and deployed models using Grafana and Prometheus, enabling proactive troubleshooting and system optimization.</li>
+          <li>Led research initiatives focused on Root Cause Analysis (RCA) for IT monitoring systems, contributing to improved fault detection and reduced incident resolution times.</li>
+        </ul>
+        <p class="stack"><strong>Main stack:</strong> Python · Apache Spark · Kubeflow · Kubernetes (GKE, EKS) · Argo Events · FluxCD · GitHub Actions · Kafka · S3 · MySQL · PostgreSQL · Grafana · Prometheus · AWS · GCP</p>
+      </article>
+    </li>
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Ph.D. Researcher in Data Engineering</h3>
+            <p class="job-org"><a class="org-link" href="https://www.labri.fr/" target="_blank" rel="noopener">LaBRI — CNRS Laboratoire Bordelais de Recherche en Informatique</a> · Bordeaux, France</p>
+          </div>
+          <span class="job-date">10/2017 – 09/2020</span>
+        </header>
+        <p class="job-context"><strong>Project:</strong> time and memory optimization of processing streaming and dynamic data by the Skyline operator. Use cases: (i) recommending best flights on a flight booking platform and (ii) selecting best tweets from a Twitter stream.</p>
+        <p class="job-context"><strong>Main research concepts:</strong> (i) recommendation systems based on preference queries (Skyline, Top-K), (ii) processing dynamic and streaming data, (iii) processing data in distributed architectures.</p>
+        <div class="job-group">
+          <h4>Main publications</h4>
+          <ul>
+            <li>Alami Karim, et al. <em>Computational Aspects Around Preference Queries.</em> International Conference on Very Large Databases (<a href="https://vldb.org/2019/" target="_blank" rel="noopener">VLDB 2019</a>) — conference rank A*.</li>
+            <li>Alami Karim, et al. (2021). <em>A Partitioning Approach for Skyline Queries in Presence of Partial and Dynamic Orders.</em> Transactions on Large-Scale Data- and Knowledge-Centered Systems XLIX, Springer, pp. 70–96 — best paper of the conference.</li>
+            <li>Alami Karim, et al. (2020). <em>The negative skycube.</em> Information Systems, 88, 101443.</li>
+          </ul>
+        </div>
+        <p class="stack"><strong>Main stack:</strong> Python · C++ · Apache Spark · OpenMP</p>
+      </article>
+    </li>
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Chargé d'enseignement Vacataire</h3>
+            <p class="job-org">CY Cergy Paris Université — Licence 3 Mathématiques-Informatique · Cergy, France</p>
+          </div>
+          <span class="job-date">2024 – 2025</span>
+        </header>
+        <p class="job-context">Lectures and lab sessions on operating systems: process management, memory management, storage and file systems, virtualization.</p>
+      </article>
+    </li>
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Doctoral Teaching Assistant</h3>
+            <p class="job-org">Bordeaux Université — Master, Licence, IUT · Bordeaux, France</p>
+          </div>
+          <span class="job-date">2018 – 2020</span>
+        </header>
+        <p class="job-context"><strong>Courses:</strong> Advanced Principles of Databases, Algorithms and Data Structures, Oracle Administration, Linux Initiation.</p>
+      </article>
+    </li>
+
+    <li class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <article class="job">
+        <header class="job-head">
+          <div>
+            <h3>Integration and Maintenance Engineer</h3>
+            <p class="job-org">Capgemini &amp; AXA Technology Services · Casablanca, Morocco</p>
+          </div>
+          <span class="job-date">12/2013 – 08/2016</span>
+        </header>
+        <p class="job-context">Multiple projects in the industry and insurance domains.</p>
+        <ul class="job-list">
+          <li>Ensured the continuous availability of critical applications for clients.</li>
+          <li>Automatized and scheduled workflow processes.</li>
+          <li>Managed changes on critical applications.</li>
+          <li>Contributed to weekly client meetings to discuss service performance.</li>
+        </ul>
+        <p class="stack"><strong>Main stack:</strong> Perl · Linux · IBM Tivoli Workload Scheduler · CA Autosys</p>
+      </article>
+    </li>
+
+  </ol>
+</section>
